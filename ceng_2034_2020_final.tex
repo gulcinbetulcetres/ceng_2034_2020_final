@@ -1,0 +1,82 @@
+\documentclass[onecolumn]{article}
+%\usepackage{url}
+%\usepackage{algorithmic}
+\usepackage[a4paper]{geometry}
+\usepackage{datetime}
+\usepackage[margin=2em, font=small,labelfont=it]{caption}
+\usepackage{graphicx}
+\usepackage{mathpazo} % use palatino
+\usepackage[scaled]{helvet} % helvetica
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{subfigure}
+% Letterspacing macros
+\newcommand{\spacecaps}[1]{\textls[200]{\MakeUppercase{#1}}}
+\newcommand{\spacesc}[1]{\textls[50]{\textsc{\MakeLowercase{#1}}}}
+
+\title{\spacecaps{Assignment Report 1: Process and Thread Implementation}\\ \normalsize \spacesc{CENG2034, Operating Systems} }
+
+\author{Gülçin Betül Çetres\\gulcinbetulcetres@posta.mu.edu.tr}
+%\date{\today\\\currenttime}
+\date{\today}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Multiprocessing is the use of two or more central processing units (CPUs) within a single computer system.The term also refers to the ability of a system to support more than one processor or the ability to allocate tasks between them.
+
+\end{abstract}
+\subsection*{Github Page}
+\url{https://github.com/gulcinbetulcetres} 
+
+\section{Introduction}
+Our aim in this project is to see how child processes work and how we can load them and get rid of orphan procceses and how to control dublicate files with the help of multi processing.
+
+\section{Assignments}
+
+\subsection{Import Modules}
+
+We did the necessary import operations.
+
+\includegraphics[scale=0.40]{importmodules.jpeg}
+
+\subsection{Dowload Files}
+
+We dowloaded all files with child processes.
+
+\includegraphics[scale=0.40]{dowload.jpeg}
+
+\subsection{Check Files}
+
+We created hash funtions and check uniq or not.
+
+\includegraphics[scale=0.30]{check.jpeg}
+
+\subsection{Trigger Functions}
+
+We created trigger functions and dowloaded urls.
+
+\includegraphics[scale=0.40]{trigger.jpeg}
+
+\subsection{Create child processes and avoidind orphan process}
+
+We created child proccesses and with \textbf{"os.wait()"} methods , avoid from orphan processes.
+
+\includegraphics[scale=0.30]{check1.jpeg}
+
+\section{Outputs}
+We can see here all outputs.
+
+\includegraphics[scale=0.40]{outputs.jpeg}
+
+\section{Conclusion}
+We can see how the child processes are created in the project and download the links given through these child processes and then see how we can avoid in the case of orphan processes. Then we learned that we can check if there is uniq with the hash functions we created. 
+
+
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
+
